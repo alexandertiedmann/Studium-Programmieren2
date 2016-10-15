@@ -26,6 +26,9 @@ public class Vektor2DTest {
         arrayU [1][2] = 5;
         arrayU [2][0] = 4;
         System.out.println(ausgabeMatrix(arrayU));
+
+        //Aufgabe 4 erzeugen eines Arrays aus Vektor2D
+        Vektor2D[] vektoren = new Vektor2D[];
     }
 
     public static String ausgabeMatrix(float[][] matrix){

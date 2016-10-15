@@ -1,5 +1,6 @@
 public class TestVektor {
     public static void main(String[] args) {
+        System.out.println("Übungsblatt 1 Aufgabe 1.1:");
         //ertellen eines Arrays mit den Werten für den Vektor
         float[] zahlen = {1,2,3};
         Vektor v1 = new Vektor(zahlen);
