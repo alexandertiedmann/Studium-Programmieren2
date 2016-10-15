@@ -1,4 +1,9 @@
 public class Arrayelement {
+    /**
+     * Gibt aus einem byte Array die Werte zurück die am häufigsten vorkommen
+     * @param arr Array mit den zu übergebenden Werten
+     * @return Array mit den Zahlen die am häufigsten vorkommen
+     */
     public static byte[] haeufigstesElem(byte[] arr){
         //Ausgabe Array erzeugen
         byte[] elem = new byte[arr.length];
@@ -31,6 +36,12 @@ public class Arrayelement {
         return pruefeMaxAnzahl(matrix,laengeM);
     }
 
+    /**
+     * prüft welche Zahl die höchste Zahl/en ist/sind und schreibt diese in ein Array
+     * @param matrix sortiertes und gekürztes 2 Dimensionales Array wo in der 1. Zeile die Werte und in der 2. die Häufigkeit der Werte steht
+     * @param laengeM Länge der Zeilen
+     * @return Array mit den häufigsten Werten
+     */
     private static byte[] pruefeMaxAnzahl(byte[][] matrix,int laengeM){
         byte maxZahl = 0;
         int zaehler = 0;
@@ -77,6 +88,10 @@ public class Arrayelement {
         return elem;
     }
 
+    /**
+     * eine Testfunktion die die Matrix für pruefeMaxAnzahl ausgibt
+     * @param matrix
+     */
     private static void ausgabeMatrix(byte[][] matrix){
         String ausgabe = new String();
         for ( int i = 0; i < matrix.length; i++){
@@ -89,20 +104,35 @@ public class Arrayelement {
         System.out.println(ausgabe);
     }
 
+    /**
+     * schreibt die häufigkeit der Werte aus dem arr Array in die entsprechende Zeile in der Matrix
+     * @param matrix 2 Dimensionales Array mit 1. Zeile die Werte wie im arr Array und in der 2. Zeile 0en
+     * @param arr Array mit den ursprungswerten
+     * @param laengeM Länge der Zeilen in der Matrix
+     * @return 2 Dimensionales Array mit 1. Zeile die Werte wie im arr Array und in der 2. Zeile die häufigkeit aus arr
+     */
     private static byte[][] eingabeZaehlen(byte[][] matrix, byte[] arr, int laengeM){
+        //durch dei Matrix gehen
         for (int b=0; b < laengeM;b++){
             byte zaehler = 0; //Zähler
-            byte zahl = matrix[0][b];
+            byte zahl = matrix[0][b]; //zu suchende Zahl
+            //durch arr gehen
             for (int c = 0; c < arr.length; c++){
                 if (arr[c] == zahl){
                     zaehler++;
                 }
             }
+            //Anzahl der gefundenen Treffer in die 2. Zeile
             matrix[1][b] = zaehler;
         }
         return matrix;
     }
 
+    /**
+     * sortiert das übergebene Array von klein nach groß
+     * @param unsortArray unsortiertes Array
+     * @return sortiertes Array
+     */
     private static byte[] sortArray(byte[] unsortArray){
         byte value = 0; //Zwischenspeicher für den Wert aus dem Array
         int laenge = unsortArray.length;
@@ -118,6 +148,11 @@ public class Arrayelement {
         return unsortArray;
     }
 
+    /**
+     * prüft an welcher Stelle das Array geteilt werden kann weil dahinter nur noch 0en kommen
+     * @param temp zu langes Array
+     * @return Stelle an der gekürzt werden kann
+     */
     private static int pruefTeilen (byte[] temp){
         int cutAt = 0;
         //Stelle an der die die Standartwerte (0) beginnen
@@ -130,6 +165,12 @@ public class Arrayelement {
         return cutAt;
     }
 
+    /**
+     * Teilt das übergebene Array an der übergebenen Stelle
+     * @param temp zu teilendes Array
+     * @param cutAt Stelle an der geteilt wird
+     * @return gekürztes Array
+     */
     private static byte[] teilen (byte[] temp, int cutAt){
         //Alles was 0 ist kann weg
         //Alle Werte die nicht 0 sind in ein anderes Array übergeben
@@ -140,6 +181,12 @@ public class Arrayelement {
         return tempCut;
     }
 
+    /**
+     * jeden Wert aus dem ursprungs Array 1-mal in dass temporäre Array
+     * @param temp temporäres Array (leer)
+     * @param arr ursprüngliches Array
+     * @return gefülltes temporäres Array
+     */
     private static byte[] uebernehmen (byte[] temp, byte[] arr){
         //jedes Element aus dem Eingangsarray prüfen ob es im Temparray ist, wenn nicht dann einfügen
         for (int i = 0; i < arr.length; i++ ) {
