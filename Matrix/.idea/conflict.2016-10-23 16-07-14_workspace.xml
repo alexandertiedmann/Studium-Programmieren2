@@ -14,7 +14,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Matrix$MatrixTest.coverage" NAME="MatrixTest Coverage Results" MODIFIED="1477239512194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Matrix$MatrixTest_equalsNormalfall.coverage" NAME="MatrixTest.equalsNormalfall Coverage Results" MODIFIED="1477038075909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Matrix$MatrixTest_equals.coverage" NAME="MatrixTest.equals Coverage Results" MODIFIED="1477037974687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -41,25 +40,27 @@
       <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="3125">
+              <caret line="163" column="25" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
               <folding>
+                <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
                 <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+                <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
                 <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+                <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
                 <element signature="method#add#0;class#Matrix#0" expanded="true" />
+                <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
                 <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+                <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
                 <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-                <element signature="e#3163#3164#0" expanded="true" />
-                <element signature="e#3193#3194#0" expanded="true" />
-                <element signature="e#3277#3278#0" expanded="true" />
-                <element signature="e#3304#3305#0" expanded="true" />
-                <element signature="e#3459#3460#0" expanded="true" />
-                <element signature="e#3491#3492#0" expanded="true" />
-                <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-                <element signature="e#3921#3922#0" expanded="true" />
-                <element signature="e#3950#3951#0" expanded="true" />
-                <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+                <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+                <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+                <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+                <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+                <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+                <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
                 <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+                <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
                 <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
               </folding>
             </state>
@@ -69,21 +70,18 @@
       <file leaf-file-name="MatrixTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-905">
-              <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+            <state relative-caret-position="323">
+              <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
-                <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
-                <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
                 <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+                <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+                <element signature="method#equals#0;class#MatrixTest#0" expanded="true" />
                 <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
-                <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
-                <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+                <element signature="method#addDimensionUngleich#0;class#MatrixTest#0" expanded="true" />
                 <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
-                <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
                 <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
-                <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+                <element signature="method#multiplyNotSameDimension#0;class#MatrixTest#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +104,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MatrixTest.java" />
         <option value="$PROJECT_DIR$/src/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/MatrixTest.java" />
       </list>
     </option>
   </component>
@@ -144,7 +142,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -157,14 +155,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -185,15 +176,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MatrixTest">
-    <configuration default="false" name="MatrixTest.multiplyNormalfall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MatrixTest.constructorTest">
+    <configuration default="false" name="MatrixTest.equalsUngleichDimension" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Matrix" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MatrixTest" />
-      <option name="METHOD_NAME" value="multiplyNormalfall" />
+      <option name="METHOD_NAME" value="equalsUngleichDimension" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -207,14 +198,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MatrixTest.multiplyFehlerSpaltenZeilen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MatrixTest.equalsNormalfall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Matrix" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MatrixTest" />
-      <option name="METHOD_NAME" value="multiplyFehlerSpaltenZeilen" />
+      <option name="METHOD_NAME" value="equalsNormalfall" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -228,35 +219,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MatrixTest.addNormalfall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Matrix" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MatrixTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MatrixTest.konstruktorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Matrix" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
-      <option name="METHOD_NAME" value="konstruktorTest" />
+      <option name="METHOD_NAME" value="addNormalfall" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -270,14 +240,35 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MatrixTest.addZeilenUngleich" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MatrixTest.multiplyScalarNormalfall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Matrix" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MatrixTest" />
-      <option name="METHOD_NAME" value="addZeilenUngleich" />
+      <option name="METHOD_NAME" value="multiplyScalarNormalfall" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MatrixTest.constructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Matrix" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
+      <option name="METHOD_NAME" value="constructorTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -745,19 +736,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MatrixTest.multiplyNormalfall" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixTest.multiplyFehlerSpaltenZeilen" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MatrixTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MatrixTest.konstruktorTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixTest.addZeilenUngleich" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MatrixTest.equalsUngleichDimension" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixTest.equalsNormalfall" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MatrixTest.addNormalfall" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MatrixTest.multiplyScalarNormalfall" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixTest.constructorTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MatrixTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixTest.addZeilenUngleich" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MatrixTest.konstruktorTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MatrixTest.multiplyFehlerSpaltenZeilen" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixTest.multiplyNormalfall" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MatrixTest.constructorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixTest.multiplyScalarNormalfall" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MatrixTest.addNormalfall" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MatrixTest.equalsNormalfall" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixTest.equalsUngleichDimension" />
       </list>
     </recent_temporary>
   </component>
@@ -783,44 +774,44 @@
       <workItem from="1477041783117" duration="2000" />
       <workItem from="1477042885898" duration="643000" />
       <workItem from="1477055198737" duration="100000" />
-      <workItem from="1477213641924" duration="19423000" />
+      <workItem from="1477213641924" duration="10907000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatrixTest - 2016.10.23 at 18h 11m 27s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_addNormalfall - 2016.10.23 at 15h 55m 54s.xml">
+      <configuration name="MatrixTest.addNormalfall" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2016.10.23 at 18h 17m 46s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_constructorTest - 2016.10.23 at 16h 06m 55s.xml">
+      <configuration name="MatrixTest.constructorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2016.10.23 at 18h 18m 35s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_equalsNormalfall - 2016.10.21 at 10h 21m 17s.xml">
+      <configuration name="MatrixTest.equalsNormalfall" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_addZeilenUngleich - 2016.10.23 at 18h 14m 38s.xml">
-      <configuration name="MatrixTest.addZeilenUngleich" configurationId="JUnit" />
+    <history-entry file="MatrixTest_equalsNormalfall - 2016.10.23 at 15h 34m 21s.xml">
+      <configuration name="MatrixTest.equalsNormalfall" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_konstruktorTest - 2016.10.23 at 17h 35m 59s.xml">
-      <configuration name="MatrixTest.konstruktorTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_equalsNormalfall - 2016.10.23 at 15h 37m 58s.xml">
+      <configuration name="MatrixTest.equalsNormalfall" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_konstruktorTest - 2016.10.23 at 17h 36m 27s.xml">
-      <configuration name="MatrixTest.konstruktorTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_equalsNormalfall - 2016.10.23 at 15h 48m 13s.xml">
+      <configuration name="MatrixTest.equalsNormalfall" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_konstruktorTest - 2016.10.23 at 17h 58m 52s.xml">
-      <configuration name="MatrixTest.konstruktorTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_equalsNormalfall - 2016.10.23 at 15h 52m 49s.xml">
+      <configuration name="MatrixTest.equalsNormalfall" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_konstruktorTest - 2016.10.23 at 18h 01m 24s.xml">
-      <configuration name="MatrixTest.konstruktorTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_equalsUngleichDimension - 2016.10.21 at 10h 20m 06s.xml">
+      <configuration name="MatrixTest.equalsUngleichDimension" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_konstruktorTest - 2016.10.23 at 18h 04m 21s.xml">
-      <configuration name="MatrixTest.konstruktorTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_equalsUngleichDimension - 2016.10.23 at 15h 36m 30s.xml">
+      <configuration name="MatrixTest.equalsUngleichDimension" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_konstruktorTest - 2016.10.23 at 18h 10m 47s.xml">
-      <configuration name="MatrixTest.konstruktorTest" configurationId="JUnit" />
+    <history-entry file="MatrixTest_multiplyScalarNormalfall - 2016.10.23 at 16h 03m 18s.xml">
+      <configuration name="MatrixTest.multiplyScalarNormalfall" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26266000" />
+    <option name="totallyTimeSpent" value="17750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -835,7 +826,6 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4751185" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -846,6 +836,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -862,7 +853,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -876,22 +867,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
@@ -902,18 +895,15 @@
         <state relative-caret-position="525">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equals#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addDimensionUngleich#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNotSameDimension#0;class#MatrixTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,22 +913,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
@@ -949,18 +941,15 @@
         <state relative-caret-position="525">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equals#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addDimensionUngleich#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNotSameDimension#0;class#MatrixTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -970,22 +959,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
@@ -996,18 +987,15 @@
         <state relative-caret-position="525">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equals#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addDimensionUngleich#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNotSameDimension#0;class#MatrixTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1017,22 +1005,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
@@ -1043,18 +1033,15 @@
         <state relative-caret-position="525">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equals#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addDimensionUngleich#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNotSameDimension#0;class#MatrixTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1064,22 +1051,24 @@
         <state relative-caret-position="300">
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
+            <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
@@ -1090,18 +1079,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equals#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addDimensionUngleich#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNotSameDimension#0;class#MatrixTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1111,22 +1097,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding>
+            <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
@@ -1137,18 +1125,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equals#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addDimensionUngleich#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNotSameDimension#0;class#MatrixTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1158,56 +1143,52 @@
         <state relative-caret-position="0">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding>
+            <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="3125">
+          <caret line="163" column="25" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
           <folding>
+            <element signature="docComment;method#Matrix#0;class#Matrix#0" expanded="false" />
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Matrix#0" expanded="false" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Matrix#0" expanded="false" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiplyScalar#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" expanded="false" />
             <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getColumns#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getRows#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getRows#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#getMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="docComment;method#isSameDimension#0;class#Matrix#0" expanded="false" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="docComment;method#checkSameRowLength#0;class#Matrix#0" expanded="false" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
@@ -1215,21 +1196,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-905">
-          <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+        <state relative-caret-position="323">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equals#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addDimensionUngleich#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
-            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNotSameDimension#0;class#MatrixTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
