@@ -1,12 +1,13 @@
-import com.sun.corba.se.impl.orbutil.CorbaResourceUtil;
-
 import static org.junit.Assert.*;
+
 public class MatrixTest {
     private Matrix ma1;
     private Matrix ma2;
     private Matrix ma3;
     private Matrix ma4;
     private Matrix ma5;
+    private Matrix ma6;
+    private Matrix ma7;
     /**
      * setzten der Werte fuer die Matrizen
      * Matrix1 und 3 sind gleich
@@ -56,6 +57,24 @@ public class MatrixTest {
         matrix5[2][0] = 2;
         matrix5[2][1] = 3;
         ma5 = new Matrix(matrix5);
+
+        float[][] matrix6 = new float[2][3];
+        matrix6[0][0] = 50000;
+        matrix6[0][1] = 50000;
+        matrix6[0][2] = 50000;
+        matrix6[1][0] = 90000;
+        matrix6[1][1] = 90000;
+        matrix6[1][2] = 90000;
+        ma6 = new Matrix(matrix6);
+
+        float[][] matrix7 = new float[3][2];
+        matrix7[0][0] = 7000;
+        matrix7[0][1] = 8000;
+        matrix7[1][0] = 9000;
+        matrix7[1][1] = 1000;
+        matrix7[2][0] = 2000;
+        matrix7[2][1] = 3000;
+        ma7 = new Matrix(matrix7);
     }
     /**
      * Test des Fehlerfalls (Matrizen sind nicht gleich)
@@ -128,6 +147,22 @@ public class MatrixTest {
         assertArrayEquals(expectedMatrix,ma1.multiplyScalar(skalar));
     }
     /**
+     * Test des Normalfalls (Ergebnis und Erwartung stimmen ueberein, aber Zahlen sehr gross)
+     * @throws Exception
+     */
+    @org.junit.Test
+    public void multiplyScalarNormalfallGross() throws Exception {
+        float skalar = 10000;
+        float[][] expectedMatrix = new float[2][3];
+        expectedMatrix[0][0] = 500000000;
+        expectedMatrix[0][1] = 500000000;
+        expectedMatrix[0][2] = 500000000;
+        expectedMatrix[1][0] = 900000000;
+        expectedMatrix[1][1] = 900000000;
+        expectedMatrix[1][2] = 900000000;
+        assertArrayEquals(expectedMatrix,ma6.multiplyScalar(skalar));
+    }
+    /**
      * Test des Fehlerfalls (Spalten=0, da ungleiche Spaltenzahlen in den Zeilen)
      * @throws Exception
      */
@@ -140,7 +175,7 @@ public class MatrixTest {
         assertArrayEquals(expectedMatrix,ma5.multiplyScalar(skalar));
     }
     /**
-     * Test des Normalfalls (Zeilen von Matrix1 gleich Spaltenanzahl Matrix2)
+     * Test des Normalfalls (Spalten und Zeilen von Matrix1 gleich Zeilen und Spaltenanzahl Matrix2)
      * @throws Exception
      */
     @org.junit.Test
@@ -151,6 +186,19 @@ public class MatrixTest {
         expectedMatrix[1][0] = 7;
         expectedMatrix[1][1] = 7;
         assertArrayEquals(expectedMatrix,ma1.multiply(ma4));
+    }
+    /**
+     * Test des Grenzfalls (Zeilen von Matrix1 gleich Spaltenanzahl Matrix2 aber Zahlen sehr gross)
+     * @throws Exception
+     */
+    @org.junit.Test
+    public void multiplyNormalfallGross() throws Exception {
+        float[][] expectedMatrix = new float[2][2];
+        expectedMatrix[0][0] = 900000000;
+        expectedMatrix[0][1] = 600000000;
+        expectedMatrix[1][0] = 1620000000;
+        expectedMatrix[1][1] = 1080000000;
+        assertArrayEquals(expectedMatrix,ma6.multiply(ma7));
     }
     /**
      * Test des Fehlerfalls (Zeilen von Matrix1 ungleich Spaltenanzahl Matrix2)

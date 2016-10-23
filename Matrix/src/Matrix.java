@@ -72,9 +72,8 @@ public class Matrix {
         //Wenn die Spalten der Matrix ungleich der Zeilen der Eingabematrix sind wird eine Fehlermatrix zurueck gegeben
         if ( columns == matrix1.getRows()){
             float[][] ergebnis = new float[rows][matrix1.getColumns()];
-            for (int i = 0; i < matrix1.getRows();i++){
+            for (int i = 0; i < rows;i++){
                 for (int j = 0; j < matrix1.getColumns();j++){
-                    ergebnis[i][j] = 0;
                     for (int k = 0; k < columns;k++){
                         ergebnis[i][j] += matrix[i][k] * matrix1.getMatrix()[k][j];
                     }
@@ -158,11 +157,9 @@ public class Matrix {
      */
     private boolean checkSameRowLength(float[][] ma){
         boolean wahr = true;
-        for (int i = 0; i < ma.length; i++){
-            for (int j = 0; j < ma[i].length;j++){
-                if (ma[i].length != ma[j].length){
-                    wahr = false;
-                }
+        for (float[] zeile : ma){
+            if ( zeile.length != ma[0].length){
+                wahr = false;
             }
         }
         return wahr;
