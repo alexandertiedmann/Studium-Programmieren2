@@ -1,38 +1,32 @@
 public class Binary {
     /**
-     * Umwandlung in Binaer
+     * Umwandlung in Binaer (32 Bit werden zurueck gegeben)
      * @param zahl umzuwandelnde Zahl
      * @return Binaerschreibweise der Zahl
      */
     public static String inBinary(int zahl){
-        if (zahl == 0) return "0";
-        if (zahl <  0) return inBinaryNeg(zahl);
-        return inBinaryPos(zahl);
-    }
-
-    /**
-     * wandelt eine positive Zahl in die binaere Schreinbweise um
-     * @param zahl positive ganze Zahl
-     * @return Binaerschreibweise
-     */
-    private static String inBinaryPos(int zahl){
         String bin = new String();
-        //herausfinden der einzelnen Binaeren Stellen ueber ganzteilige Division
-        for (int tmp = zahl; tmp > 0; tmp=tmp/2){
-            bin = (tmp%2) + bin;
+        // Da die int Zahl schon die richtige Schreibweise nutzt muss nur noch ausgegeben werden
+        for (int i = 0; i < 32; i++){
+            if (isSet(i,zahl)){
+                bin = 1 + bin;
+            }else{
+                bin = 0 + bin;
+            }
         }
         return bin;
     }
 
     /**
-     * wandelt eine negative Zahl in die binaere Schreinbweise um
-     * @param zahl negative ganze Zahl
-     * @return Binaerschreibweise
+     * schaut ob ein Bit gesetzt ist oder nicht
+     * @param index Stelle an der geschaut wird
+     * @param status Zahl in der das Bit gesetzt sein soll
+     * @return gesetzt oder nicht gesetzt
      */
-    private static String inBinaryNeg(int zahl){
-        String bin = new String();
-        //Zweierkomplement berechnen
-        bin = "Noch keine negativen Zahlen";
-        return bin;
+    public static boolean isSet(int index, int status){
+        /*schiebe die Bits in status um index viele stellen bis das gewollte Bit am Ende steht dann maskiere mit 1
+        die gewuenschte Stelle ist eine 1 wenn dort eine 1 Stand und 0 wenn dort 0 stand */
+        // index-1 da sonst 0 die 1. Stelle waere
+        return ( ( (status >> index ) & 1 ) == 1 );
     }
 }

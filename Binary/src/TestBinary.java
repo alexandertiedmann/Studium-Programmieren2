@@ -1,5 +1,6 @@
 public class TestBinary{
     public static void main(String[] args) {
+        //Es werden immer 32 Bit ausgegeben
         callBin(0);
         callBin(1);
         callBin(2);
