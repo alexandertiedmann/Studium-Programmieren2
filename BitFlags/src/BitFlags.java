@@ -16,7 +16,7 @@ public class BitFlags {
         // Bitweise mit 0en verodern
         // mit 1 an der Stelle die 1 gesetzt werden soll
         // bsp: 00000 | 00100 = 00100
-        status = status | (1 << --index);
+        status = status | (1 << index);
     }
     /**
      * Setzt das Bit am uebergebenen Index auf 0
@@ -27,7 +27,7 @@ public class BitFlags {
         // Bitweise mit 1en verunden
         // mit 0 an der Stelle die 0 gesetzt werden soll
         // bsp: 11111 & (00100 negiert = 11011) = 11011
-        status = status & ~(1 << --index);
+        status = status & ~(1 << index);
     }
 
     /**
@@ -51,7 +51,7 @@ public class BitFlags {
         /*schiebe die Bits in Status um index viele stellen bis das gewollte Bit am Ende steht dann maskiere mit 1
         die gewuenschte Stelle ist eine 1 wenn dort eine 1 Stand und 0 wenn dort 0 stand */
         // index-1 da sonst 0 die 1. Stelle waere
-        return ( ( (status >> --index ) & 1 ) == 1 );
+        return ( ( (status >> index ) & 1 ) == 1 );
     }
 
 }
