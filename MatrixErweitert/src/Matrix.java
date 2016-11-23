@@ -117,6 +117,11 @@ public class Matrix {
         }
     }
     /**
+     * Setzt die Matrix
+     * @param ma zu setzende Matrix
+     */
+    public void setMatrix(float[][] ma){ matrix = ma; }
+    /**
      * Gibt die Matrix zurueck
      * @return Matrix
      */
@@ -155,13 +160,31 @@ public class Matrix {
      * @param ma zu pruefende Matrix
      * @return gleich lange Zeilen oder nicht
      */
-    private boolean checkSameRowLength(float[][] ma){
+    private boolean checkSameRowLength(float[][] ma) {
         boolean wahr = true;
-        for (float[] zeile : ma){
-            if ( zeile.length != ma[0].length){
+        for (float[] zeile : ma) {
+            if (zeile.length != ma[0].length) {
                 wahr = false;
             }
         }
         return wahr;
+    }
+    /**
+     * Alle Werte der MAtrix in einen String
+     * @return Alle Werte der Matrix
+     */
+    public String toString(){
+        String line = new String();
+        String mat = new String();
+        line = "Rows: " + getRows() + ", Columns: " + getColumns();
+        for (int row=0; row < getMatrix().length; row++){
+            mat = mat + getMatrix()[row][0];
+            for (int col = 1; col < getMatrix()[row].length;col++){
+                mat = mat + " " + getMatrix()[row][col];
+            }
+            mat = mat + "\n";
+        }
+        line = "Matrix: \n" + mat + line;
+        return line;
     }
 }
