@@ -32,7 +32,7 @@ public class Vektor extends Matrix{
     public String toString(){
         String line = new String();
         line = super.toString();
-        line = line + ", Betrag: " + length();
+        line = "Vektor: \n" + line + ", Betrag: " + length();
         return line;
     }
 }

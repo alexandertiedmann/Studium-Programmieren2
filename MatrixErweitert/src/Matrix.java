@@ -184,7 +184,7 @@ public class Matrix {
             }
             mat = mat + "\n";
         }
-        line = "Matrix: \n" + mat + line;
+        line = mat + line;
         return line;
     }
 }

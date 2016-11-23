@@ -25,7 +25,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="-80">
               <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="method#printMatrix#0;class#Main#0" expanded="true" />
@@ -37,12 +37,11 @@
       <file leaf-file-name="Vektor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vektor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="524">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="method#Vektor#0;class#Vektor#0" expanded="true" />
                 <element signature="method#length#0;class#Vektor#0" expanded="true" />
-                <element signature="method#toString#0;class#Vektor#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,10 +50,11 @@
       <file leaf-file-name="QuadraticMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuadraticMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="242">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
               <folding>
                 <element signature="method#QuadraticMatrix#0;class#QuadraticMatrix#0" expanded="true" />
+                <element signature="method#pow#0;class#QuadraticMatrix#0" expanded="true" />
                 <element signature="method#emptyMatrix#0;class#QuadraticMatrix#0" expanded="true" />
               </folding>
             </state>
@@ -76,8 +76,8 @@
       <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
+            <state relative-caret-position="520">
+              <caret line="186" column="15" selection-start-line="186" selection-start-column="15" selection-end-line="186" selection-end-column="15" />
               <folding>
                 <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
                 <element signature="method#equals#0;class#Matrix#0" expanded="true" />
@@ -89,7 +89,6 @@
                 <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
                 <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
                 <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
-                <element signature="method#toString#0;class#Matrix#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,11 +111,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/IdentityMatrix.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Matrix.java" />
         <option value="$PROJECT_DIR$/src/Vektor.java" />
-        <option value="$PROJECT_DIR$/src/IdentityMatrix.java" />
         <option value="$PROJECT_DIR$/src/QuadraticMatrix.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -159,7 +158,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,6 +192,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,11 +262,12 @@
       <workItem from="1479468650061" duration="3219000" />
       <workItem from="1479652287491" duration="7051000" />
       <workItem from="1479809203993" duration="11841000" />
+      <workItem from="1479902452173" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22820000" />
+    <option name="totallyTimeSpent" value="23082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -280,8 +280,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84241706" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -290,8 +290,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -327,12 +327,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vektor.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#Vektor#0;class#Vektor#0" expanded="true" />
+            <element signature="method#length#0;class#Vektor#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuadraticMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="method#QuadraticMatrix#0;class#QuadraticMatrix#0" expanded="true" />
+            <element signature="method#pow#0;class#QuadraticMatrix#0" expanded="true" />
+            <element signature="method#emptyMatrix#0;class#QuadraticMatrix#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IdentityMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="method#IdentityMatrix#0;class#IdentityMatrix#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
+          <folding>
+            <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
+            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="method#setMatrix#0;class#Matrix#0" expanded="false" />
+            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#printMatrix#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vektor.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="method#Vektor#0;class#Vektor#0" expanded="true" />
             <element signature="method#length#0;class#Vektor#0" expanded="true" />
-            <element signature="method#toString#0;class#Vektor#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -343,6 +404,7 @@
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="method#QuadraticMatrix#0;class#QuadraticMatrix#0" expanded="true" />
+            <element signature="method#pow#0;class#QuadraticMatrix#0" expanded="true" />
             <element signature="method#emptyMatrix#0;class#QuadraticMatrix#0" expanded="true" />
           </folding>
         </state>
@@ -363,7 +425,6 @@
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
-            <element signature="method#toString#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -385,7 +446,6 @@
           <folding>
             <element signature="method#Vektor#0;class#Vektor#0" expanded="true" />
             <element signature="method#length#0;class#Vektor#0" expanded="true" />
-            <element signature="method#toString#0;class#Vektor#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -405,7 +465,6 @@
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
-            <element signature="method#toString#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -435,19 +494,6 @@
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
-            <element signature="method#toString#0;class#Matrix#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vektor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Vektor#0;class#Vektor#0" expanded="true" />
-            <element signature="method#length#0;class#Vektor#0" expanded="true" />
-            <element signature="method#toString#0;class#Vektor#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
+        <state relative-caret-position="520">
+          <caret line="186" column="15" selection-start-line="186" selection-start-column="15" selection-end-line="186" selection-end-column="15" />
           <folding>
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
@@ -477,17 +523,28 @@
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
-            <element signature="method#toString#0;class#Matrix#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vektor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="method#Vektor#0;class#Vektor#0" expanded="true" />
+            <element signature="method#length#0;class#Vektor#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuadraticMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="242">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
           <folding>
             <element signature="method#QuadraticMatrix#0;class#QuadraticMatrix#0" expanded="true" />
+            <element signature="method#pow#0;class#QuadraticMatrix#0" expanded="true" />
             <element signature="method#emptyMatrix#0;class#QuadraticMatrix#0" expanded="true" />
           </folding>
         </state>
@@ -495,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="-80">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="method#printMatrix#0;class#Main#0" expanded="true" />

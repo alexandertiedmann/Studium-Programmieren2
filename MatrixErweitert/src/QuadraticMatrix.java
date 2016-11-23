@@ -39,4 +39,11 @@ public class QuadraticMatrix extends Matrix{
         }
         return neu;
     }
+
+    public String toString(){
+        String line = new String();
+        line = super.toString();
+        line = "QuadratischeMatrix: \n" + line;
+        return line;
+    }
 }
