@@ -40,6 +40,10 @@ public class QuadraticMatrix extends Matrix{
         return neu;
     }
 
+    /**
+     * Gibt alle Werte der Matrix in einem String zureuck
+     * @return Alle Werte der Matrix
+     */
     public String toString(){
         String line = new String();
         line = super.toString();
