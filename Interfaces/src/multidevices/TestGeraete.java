@@ -2,6 +2,12 @@ import multidevices.Fax;
 import multidevices.LaserPrinter;
 import multidevices.Multidevice;
 
+/**
+ * testclass for devices
+ * @author Alexander Tiedmann (s0556127)
+ * @version 1.0
+ * @since 29.11.2016
+ */
 public class TestGeraete {
 
     public static void main(String[] args) {

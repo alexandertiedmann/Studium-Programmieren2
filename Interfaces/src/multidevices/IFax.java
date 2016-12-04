@@ -1,7 +1,7 @@
 package multidevices;
 
 /**
- *
+ * interface for fax
  * @author Alexander Tiedmann (s0556127)
  * @version 1.0
  * @since 29.11.2016

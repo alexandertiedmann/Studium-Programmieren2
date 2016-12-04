@@ -1,7 +1,14 @@
+package compare;
+
 import compare.ICompare;
 import compare.UsefulFunction;
 import compare.VInteger;
-
+/**
+ * testclass to compare
+ * @author Alexander Tiedmann (s0556127)
+ * @version 1.0
+ * @since 29.11.2016
+ */
 public class Main {
 
     public static void main(String[] args) {
