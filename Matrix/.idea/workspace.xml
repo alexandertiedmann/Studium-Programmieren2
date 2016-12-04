@@ -15,8 +15,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Matrix$MatrixTest.coverage" NAME="MatrixTest Coverage Results" MODIFIED="1477244503877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Matrix$MatrixTest_equalsNormalfall.coverage" NAME="MatrixTest.equalsNormalfall Coverage Results" MODIFIED="1477038075909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Matrix$MatrixTest_equals.coverage" NAME="MatrixTest.equals Coverage Results" MODIFIED="1477037974687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Matrix$MatrixTest_equalsNormalfall.coverage" NAME="MatrixTest.equalsNormalfall Coverage Results" MODIFIED="1477038075909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="0" />
@@ -38,25 +38,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1680">
-              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+            <state relative-caret-position="25">
+              <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="72" />
               <folding>
                 <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
                 <element signature="method#equals#0;class#Matrix#0" expanded="true" />
                 <element signature="method#add#0;class#Matrix#0" expanded="true" />
                 <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-                <element signature="e#3110#3111#0" expanded="true" />
-                <element signature="e#3140#3141#0" expanded="true" />
-                <element signature="e#3224#3225#0" expanded="true" />
-                <element signature="e#3251#3252#0" expanded="true" />
-                <element signature="e#3406#3407#0" expanded="true" />
-                <element signature="e#3438#3439#0" expanded="true" />
+                <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
                 <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-                <element signature="e#3868#3869#0" expanded="true" />
-                <element signature="e#3897#3898#0" expanded="true" />
                 <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
                 <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
                 <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
@@ -65,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatrixTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3575">
-              <caret line="161" column="39" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
+            <state relative-caret-position="1800">
+              <caret line="161" column="39" lean-forward="false" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
               <folding>
                 <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
                 <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
@@ -132,18 +125,8 @@
     <option name="width" value="1942" />
     <option name="height" value="1042" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -156,14 +139,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -290,30 +266,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -333,7 +285,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -503,32 +459,12 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -665,34 +601,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -759,6 +667,30 @@
         <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixTest.addZeilenUngleich" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -783,6 +715,8 @@
       <workItem from="1477042885898" duration="643000" />
       <workItem from="1477055198737" duration="100000" />
       <workItem from="1477213641924" duration="23372000" />
+      <workItem from="1480694588773" duration="252000" />
+      <workItem from="1480695016449" duration="12000" />
     </task>
     <servers />
   </component>
@@ -819,7 +753,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30215000" />
+    <option name="totallyTimeSpent" value="30479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -827,14 +761,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4751185" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -843,10 +778,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -873,21 +814,14 @@
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
             <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
@@ -897,8 +831,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="4025">
+          <caret line="161" column="39" lean-forward="false" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
+          <folding>
+            <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNormalfallGross#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="75" column="62" lean-forward="false" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+          <folding>
+            <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
+            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
@@ -919,21 +892,14 @@
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
             <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
@@ -944,7 +910,7 @@
     <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
@@ -965,21 +931,14 @@
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
             <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
@@ -990,7 +949,7 @@
     <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
@@ -1011,21 +970,14 @@
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
             <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
@@ -1036,7 +988,46 @@
     <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#equalsUngleichDimension#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addSpaltenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#addZeilenUngleich#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyScalarNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyScalarZeilenGleichNull#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyNormalfallGross#0;class#MatrixTest#0" expanded="true" />
+            <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
+            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
@@ -1057,21 +1048,14 @@
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
             <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
@@ -1082,7 +1066,7 @@
     <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
@@ -1103,21 +1087,14 @@
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding>
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
             <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
@@ -1128,7 +1105,7 @@
     <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
@@ -1149,21 +1126,14 @@
     <entry file="file://$PROJECT_DIR$/src/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding>
             <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#equals#0;class#Matrix#0" expanded="true" />
             <element signature="method#add#0;class#Matrix#0" expanded="true" />
             <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
             <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
             <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
             <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
             <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
@@ -1174,40 +1144,14 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
-          <folding>
-            <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
-            <element signature="method#equals#0;class#Matrix#0" expanded="true" />
-            <element signature="method#add#0;class#Matrix#0" expanded="true" />
-            <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
-            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
-            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
-            <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
-            <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
-          </folding>
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3575">
-          <caret line="161" column="39" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
+        <state relative-caret-position="1800">
+          <caret line="161" column="39" lean-forward="false" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
           <folding>
             <element signature="method#setUp#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#equalsUngleich#0;class#MatrixTest#0" expanded="true" />
@@ -1221,6 +1165,24 @@
             <element signature="method#multiplyNormalfall#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyNormalfallGross#0;class#MatrixTest#0" expanded="true" />
             <element signature="method#multiplyFehlerSpaltenZeilen#0;class#MatrixTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="72" />
+          <folding>
+            <element signature="method#Matrix#0;class#Matrix#0" expanded="true" />
+            <element signature="method#equals#0;class#Matrix#0" expanded="true" />
+            <element signature="method#add#0;class#Matrix#0" expanded="true" />
+            <element signature="method#multiplyScalar#0;class#Matrix#0" expanded="true" />
+            <element signature="method#multiply#0;class#Matrix#0" expanded="true" />
+            <element signature="method#setColumns#0;class#Matrix#0" expanded="true" />
+            <element signature="method#getFehlermatrix#0;class#Matrix#0" expanded="true" />
+            <element signature="method#isSameDimension#0;class#Matrix#0" expanded="true" />
+            <element signature="method#checkSameRowLength#0;class#Matrix#0" expanded="true" />
           </folding>
         </state>
       </provider>
