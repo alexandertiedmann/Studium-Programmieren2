@@ -17,6 +17,7 @@ public class Login {
     public void anmelden (String benutzer, String passwort) throws ZugriffUngueltigException{
         //check if empty and to short for username or password
         if (( benutzer.length() > 1 ) || (passwort.length() > 1)) {
+            //other checks (user correct,password correct, etc.)
             this.angemeldet = true;
         }else{
             this.angemeldet = false;

@@ -5,6 +5,9 @@
  * @since 09.12.2016
  */
 public class KeineBerechtigungException extends Exception{
+    /**
+     * construktor for NoAuthorizationException
+     */
     public KeineBerechtigungException() {
         super("Sie haben keine Berechtigung zum bearbeiten.");
     }
