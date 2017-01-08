@@ -66,9 +66,20 @@ public class BinTree
         else {
             if (node.right == null && node.right == null){//if leave
                 return true;
-            }else{
-                return false;
+            }else {
+                if (node.right == null && node.left.data < node.data && isSorted(node.left)){
+                    return true;
+                }else{
+                    if (node.left == null && node.right.data > node.data && isSorted(node.right)) {
+                        return true;
+                    } else {
+                        if (node.left.data < node.data && node.data < node.right.data && isSorted(node.left) && isSorted(node.right)) {
+                            return true;
+                        }
+                    }
+                }
             }
         }
+        return false;
     }
 }
