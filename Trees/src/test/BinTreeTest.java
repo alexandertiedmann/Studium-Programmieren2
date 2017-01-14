@@ -57,5 +57,11 @@ public class BinTreeTest {
         assertTrue(normalTree.isNotEmpty());
         assertEquals(4,normalTree.countLeaves());
         assertTrue(normalTree.isSorted());
+
+        //bug in isSorted()
+        // True for non-sorted trees:
+        //            7
+        //        5          15
+        //    3       8
     }
 }
